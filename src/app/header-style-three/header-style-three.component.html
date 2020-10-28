@@ -1,0 +1,116 @@
+<header id="header" (scroll)="onWindowScroll($event)" class="navbar-style-three">
+    <div id="navbar" class="startp-nav {{layoutClass}}">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" routerLink="/startup">
+                    <img src="../../assets/img/logo.png" alt="logo">
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    (click)="toggleNavbar()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" [ngClass]="{'show': navbarOpen}" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav">
+                        <li class="nav-item" routerLinkActive="active">
+                            <a href="javascript:void(0)" class="nav-link">Home <i-feather name="chevron-down"></i-feather></a>
+
+                            <ul class="dropdown_menu">
+                                <li class="nav-item"><a routerLink="/startup" routerLinkActive="active" class="nav-link">Home One</a></li>
+
+                                <li class="nav-item"><a routerLink="/developers" routerLinkActive="active" class="nav-link">Home Two</a></li>
+
+                                <li class="nav-item"><a routerLink="/web-hosting" routerLinkActive="active" class="nav-link">Home Three</a></li>
+
+                                <li class="nav-item"><a routerLink="/repair" routerLinkActive="active" class="nav-link">Home Four</a></li>
+
+                                <li class="nav-item"><a routerLink="/iot" routerLinkActive="active" class="nav-link">Home Five</a></li>
+
+                                <li class="nav-item"><a routerLink="/machine-learning" routerLinkActive="active" class="nav-link">Home Six</a></li>
+
+                                <li class="nav-item"><a routerLink="/machine-learning-2" routerLinkActive="active" class="nav-link">Home Seven</a></li>
+
+                                <li class="nav-item"><a routerLink="/digital-agency" routerLinkActive="active" class="nav-link">Home Eight</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a routerLink="/about" routerLinkActive="active" class="nav-link">About</a></li>
+
+                        <li class="nav-item" routerLinkActive="active">
+                            <a href="javascript:void(0)" class="nav-link">Project <i-feather name="chevron-down"></i-feather></a>
+
+                            <ul class="dropdown_menu">
+                                <li class="nav-item"><a routerLink="/project" routerLinkActive="active" class="nav-link">Project</a></li>
+
+                                <li class="nav-item"><a routerLink="/project-details" routerLinkActive="active" class="nav-link">Project Details</a></li>
+                            </ul>
+                        </li>
+
+                        <li (click)="toggleNavbar()" routerLinkActive="active" class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link">Pages <i-feather name="chevron-down"></i-feather></a>
+
+                            <ul class="dropdown_menu">
+                                <li (click)="toggleNavbar()" routerLinkActive="active" class="nav-item">
+                                    <a href="javascript:void(0)" class="nav-link">Features</a>
+
+                                    <ul class="dropdown_menu">
+                                        <li class="nav-item"><a routerLink="features" routerLinkActive="active" class="nav-link">Features</a></li>
+
+                                        <li class="nav-item"><a routerLink="/features-details" routerLinkActive="active" class="nav-link">Features Details</a></li>
+                                    </ul>
+                                </li>
+
+                                <li (click)="toggleNavbar()" routerLinkActive="active" class="nav-item">
+                                    <a href="javascript:void(0)" class="nav-link">Services</a>
+
+                                    <ul class="dropdown_menu">
+                                        <li class="nav-item"><a routerLink="/services" routerLinkActive="active" class="nav-link">Services</a></li>
+
+                                        <li class="nav-item"><a routerLink="/services-details" routerLinkActive="active" class="nav-link">Services Details</a></li>
+                                    </ul>
+                                </li>
+
+                                <li (click)="toggleNavbar()" class="nav-item"><a routerLink="/team" routerLinkActive="active" class="nav-link">Team</a></li>
+
+                                <li (click)="toggleNavbar()" class="nav-item"><a routerLink="/pricing" routerLinkActive="active" class="nav-link">Pricing</a></li>
+
+                                <li (click)="toggleNavbar()" class="nav-item"><a routerLink="/faq" routerLinkActive="active" class="nav-link">FAQ</a></li>
+
+                                <li (click)="toggleNavbar()" class="nav-item"><a routerLink="/coming-soon" routerLinkActive="active" class="nav-link">Coming Soon</a></li>
+
+                                <li (click)="toggleNavbar()" class="nav-item"><a routerLink="/404-error" routerLinkActive="active" class="nav-link">404 Error</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item" routerLinkActive="active">
+                            <a href="javascript:void(0)" class="nav-link">Blog <i-feather name="chevron-down"></i-feather></a>
+
+                            <ul class="dropdown_menu">
+                                <li class="nav-item">
+                                    <a routerLink="/blog" routerLinkActive="active" class="nav-link">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/blog-details" routerLinkActive="active" class="nav-link">Blog Details</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li (click)="toggleNavbar()" class="nav-item"><a routerLink="/contact" routerLinkActive="active" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="others-option">
+                    <a href="javascript:void(0)" class="btn btn-gradient">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,21 @@
+<div class="preloader">
+    <div class="spinner"></div>
+</div>
+
+<ng-container *ngIf="(location == '/machine-learning-2')">
+    <app-header-style-two></app-header-style-two>
+    <router-outlet></router-outlet>
+    <app-footer *ngIf="location != '/coming-soon'"></app-footer>
+</ng-container>
+
+<ng-container *ngIf="(location == '/digital-agency')">
+    <app-header-style-three></app-header-style-three>
+    <router-outlet></router-outlet>
+    <app-footer *ngIf="location != '/coming-soon'"></app-footer>
+</ng-container>
+
+<ng-container *ngIf="!(location == '/digital-agency' || location == '/machine-learning-2')">
+    <app-header *ngIf="location != '/coming-soon'"></app-header>
+    <router-outlet></router-outlet>
+    <app-footer *ngIf="location != '/coming-soon'"></app-footer>
+</ng-container>
