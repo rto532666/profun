@@ -85,7 +85,7 @@ a, button {
     outline: 0 !important;
 }
 p {
-    color: #6084a4;
+    color: #47525c;
     line-height: 1.8;
 }
 p:last-child {
@@ -5241,6 +5241,7 @@ Our Solutions CSS
 }
   
 .single-solutions-box {
+    height: 410px;
     padding: 20px 15px;
     text-align: center;
     -webkit-transition: 0.5s;
@@ -5248,7 +5249,7 @@ Our Solutions CSS
     position: relative;
     margin-bottom: 30px;
     z-index: 1;
-    border: 1px solid #c5fffd;
+    border: 1px solid #c7c2c3;
     border-radius: 5px;
 }
   
@@ -5295,7 +5296,7 @@ Our Solutions CSS
     border-radius: 5px;
     height: 100%;
     background: -webkit-gradient(linear, left bottom, right top, from(#d5fefd), color-stop(#e0fdff), color-stop(#effbff), color-stop(#fbfaff), to(#fffcff));
-    background: linear-gradient(to right top, #d5fefd, #e0fdff, #effbff, #fbfaff, #fffcff);
+    background: linear-gradient(to right top, #b5caca, #c5d8da, #effbff, #fbfaff, #fffcff);
 }
   
 .single-solutions-box .learn-more-btn {
