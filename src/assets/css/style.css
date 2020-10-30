@@ -309,7 +309,7 @@ label {
 .section-title .bar {
     height: 5px;
     width: 90px;
-    background: #cdf1d8;
+    background: #c3c7c7;
     margin: 20px auto;
     position: relative;
     border-radius: 30px;
@@ -323,7 +323,7 @@ label {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #ed1c24;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -336,8 +336,8 @@ label {
 
 .section-title .sub-title {
     display: inline-block;
-    color: #c679e3;
-    background-color: #f5dffd;
+    color: white;
+    background-color: #a1a3a8;
     margin-bottom: 18px;
     border-radius: 30px;
     padding: 5px 20px 4px;
@@ -500,11 +500,13 @@ Navbar CSS
 }
 
 .startp-nav nav .navbar-nav .nav-item a:hover, .startp-nav nav .navbar-nav .nav-item a:focus, .startp-nav nav .navbar-nav .nav-item a.active {
-    color: #44ce6f;
+    color: #ed1c24;
 }
-
+.startp-nav nav .navbar-nav .nav-item a{
+    text-transform: uppercase;
+}
 .startp-nav nav .navbar-nav .nav-item.active a {
-    color: #44ce6f;
+    color: #ed1c24;
 }
 
 .startp-nav nav .navbar-nav .nav-item a svg {
