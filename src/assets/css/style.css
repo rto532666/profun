@@ -1193,65 +1193,48 @@ ML Main Banner CSS
 }
   
 .ml-banner-image img:nth-child(1) {
-    left: 195px;
-    top: -125px;
+    top: -260px;
     z-index: 2;
 }
 
 .ml-banner-image img:nth-child(2) {
-    top: -83px;
-    left: 153px;
-    z-index: 1;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(3) {
-    top: 40px;
-    left: 90px;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(4) {
-    top: 0;
-    right: 165px;
-    z-index: 3;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(5) {
-    top: -260px;
-    left: 110px;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(6) {
-    right: 130px;
-    top: -240px;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(7) {
-    bottom: 0;
-    right: 0;
-    z-index: 2;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(8) {
-    right: 10px;
-    bottom: 205px;
-    z-index: 1;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(9) {
-    left: 15px;
-    top: -185px;
-    z-index: 1;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(10) {
-    left: 1px;
-    bottom: -2px;
-    z-index: 2;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(11) {
-    left: 0;
-    top: -20px;
+    display: none;
 }
 
 .ml-banner-image img:nth-child(12) {
