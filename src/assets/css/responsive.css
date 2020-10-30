@@ -19,7 +19,7 @@
         padding-top: 0;
     }
     .navbar-light .navbar-brand img {
-        max-width: 100px;
+        max-width: 160px;
     }
     .btn {
         font-size: 13px;
@@ -1478,7 +1478,7 @@
         left: -106%;
     }
     .navbar-light .navbar-brand img {
-        max-width: 100px;
+        max-width: 160px;
     }
     .main-banner {
         height: 100%;

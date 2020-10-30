@@ -224,10 +224,10 @@ p:last-child {
 .btn.btn-secondary {
     text-transform: capitalize;
     border-radius: 0;
-    background-color: #44ce6f;
+    background-color: #ed1c24;
     padding: 13px 30px;
-    -webkit-box-shadow: 5px 5px 5px #a6f5be;
-    box-shadow: 5px 5px 5px #a6f5be;
+    -webkit-box-shadow: 5px 5px 5px #f15c61;
+    box-shadow: 5px 5px 5px #f8787c;
     margin-right: 5px;
     margin-bottom: 5px;
     font-size: 14px;
@@ -1150,7 +1150,7 @@ ML Main Banner CSS
 }
   
 .ml-banner-content p {
-    font-size: 15px;
+    font-size: 17px;
     max-width: 490px;
 }
   

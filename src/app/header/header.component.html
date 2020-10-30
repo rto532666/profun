@@ -2,10 +2,10 @@
     <div id="navbar" class="startp-nav {{layoutClass}}">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
-                <a class="navbar-brand" routerLink="/startup">
-                    <img src="../../assets/img/logo.png" alt="logo">
+                <a class="navbar-brand" routerLink="/">
+                    <img src="../../assets/img/logo2.png" class="logo-main" alt="logo" style="height: 45px;">
                 </a>
-
+                
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -20,10 +20,10 @@
 
                 <div class="collapse navbar-collapse" [ngClass]="{'show': navbarOpen}" id="navbarSupportedContent">
                     <ul class="navbar-nav nav ml-auto">
-                        <li class="nav-item" routerLinkActive="active">
-                            <a href="javascript:void(0)" class="nav-link">Home <i-feather name="chevron-down"></i-feather></a>
+                        <li class="nav-item" routerLinkActive="active" routerLink="/">
+                            <a href="javascript:void(0)" class="nav-link">Home </a>
 
-                            <ul class="dropdown_menu">
+                            <!-- <ul class="dropdown_menu">
                                 <li class="nav-item"><a routerLink="/startup" routerLinkActive="active" class="nav-link">Home One</a></li>
 
                                 <li class="nav-item"><a routerLink="/developers" routerLinkActive="active" class="nav-link">Home Two</a></li>
@@ -39,7 +39,7 @@
                                 <li class="nav-item"><a routerLink="/machine-learning-2" routerLinkActive="active" class="nav-link">Home Seven</a></li>
 
                                 <li class="nav-item"><a routerLink="/digital-agency" routerLinkActive="active" class="nav-link">Home Eight</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
 
                         <li class="nav-item"><a routerLink="/about" routerLinkActive="active" class="nav-link">About</a></li>
@@ -107,10 +107,10 @@
                     </ul>
                 </div>
 
-                <div class="others-option">
+                <!-- <div class="others-option">
                     <a href="javascript:void(0)" class="btn btn-light">Support</a>
                     <a href="javascript:void(0)" class="btn btn-primary">Login</a>
-                </div>
+                </div> -->
             </div>
         </nav>
     </div>
