@@ -2367,7 +2367,7 @@ ML Services CSS
     position: relative;
     z-index: 1;
     background: -webkit-gradient(linear, right top, left bottom, from(#fffcff), color-stop(#fbfaff), color-stop(#effbff), color-stop(#e0fdff), to(#d5fefd));
-    background: linear-gradient(to left bottom, #fffcff, #fbfaff, #effbff, #e0fdff, #d5fefd);
+    background: linear-gradient(to left bottom, #fffcff, #fbfaff, #effbff, #d8e6e7, #d3dddd);
 }
 
 .single-ml-services-box {
