@@ -58,6 +58,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 14px;
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
@@ -2443,7 +2444,7 @@ Team CSS
 }
 
 .single-team .team-image img {
-    border: 3px solid #cdf1d8;
+    border: 1.8px solid #f74a53;
     width: auto !important;
     border-radius: 50%;
     display: inline-block !important;
@@ -2456,7 +2457,7 @@ Team CSS
     position: absolute;
     left: 0;
     top: 50%;
-    background: #f9f6f6;
+    background: #c7c5c5;
     height: 10px;
     width: 100%;
     z-index: -1;
@@ -2500,7 +2501,7 @@ Team CSS
 }
 
 .single-team .team-info {
-    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    background: linear-gradient(135deg, #f13a40 0%, #ed1c24 100%);
     padding: 10px 15px;
     border-radius: 75px;
     margin-bottom: 25px;
@@ -2532,7 +2533,7 @@ Team CSS
 }
 
 .single-team:hover .team-image img {
-    border-color: #44ce6f;
+    border-color: #ed1c24;
 }
 
 .single-team:hover .team-info {
@@ -3618,7 +3619,7 @@ Ready To Talk CSS
     position: relative;
     padding-top: 80px;
     padding-bottom: 160px;
-    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    background: linear-gradient(135deg, #899b9a 0%, #d2dad6 100%);
 }
 
 .ready-to-talk h3 {
@@ -3636,13 +3637,13 @@ Ready To Talk CSS
 }
 
 .ready-to-talk .btn::before, .ready-to-talk .btn::after {
-    background: #44ce6f;
+    background: #58595b;
 }
 
 .ready-to-talk .btn-primary {
-    background: #c679e3;
-    -webkit-box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
-    box-shadow: 0 5px 20px 0 rgba(198, 121, 227, 0.25);
+    background: #ed1c24;
+    -webkit-box-shadow: 0 5px 20px 0 #f8787c;
+    box-shadow: 0 5px 20px 0 #f8787c;
 }
 
 .ready-to-talk .btn-primary:hover, .ready-to-talk .btn-primary:focus {
