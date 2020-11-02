@@ -146,9 +146,9 @@ p:last-child {
 /*btn btn-primary*/
 .btn-primary {
     color: #ffffff;
-    background-color: #44ce6f;
-    -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
-    box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+    background-color: #ed1c24;
+    -webkit-box-shadow: 0 13px 27px 0 #f5686c;
+    box-shadow: 0 13px 27px 0 #fc6d72;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #ffffff;
@@ -206,7 +206,7 @@ p:last-child {
     width: 0;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    background: #c679e3;
+    background: #58595b;
     z-index: -1;
 }
 .btn::after {
@@ -5701,7 +5701,7 @@ Contact CSS
     padding: 30px;
 }
 
-.contact-info-box .icon {
+.contact-info-box .icon a{
     display: inline-block;
     width: 65px;
     height: 65px;
@@ -5709,9 +5709,12 @@ Contact CSS
     background: #f7fafd;
     border-radius: 50%;
     font-size: 30px;
-    color: #44ce6f;
+    color: #ed1c24;
     -webkit-transition: .4s;
     transition: .4s;
+}
+.contact-icon:hover{
+    color: #58595b; 
 }
 
 .contact-info-box h3 {
@@ -5728,7 +5731,7 @@ Contact CSS
 }
 
 .contact-info-box p a:hover {
-    color: #44ce6f;
+    color: #ed1c24;
 }
 
 .contact-info-box:hover {
@@ -5736,9 +5739,9 @@ Contact CSS
     transform: translateY(-10px);
 }
 
-.contact-info-box:hover .icon {
+.contact-info-box:hover .icon a {
     color: #ffffff;
-    background: #44ce6f;
+    background: #ed1c24;
 }
 
 #map {
