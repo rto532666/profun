@@ -236,11 +236,11 @@ p:last-child {
 }
 .btn.btn-secondary::before {
     border-radius: 0;
-    background: #c679e3;
+    background: #ed1c24;
 }
 .btn.btn-secondary::after {
     border-radius: 0;
-    background: #c679e3;
+    background: #ed1c24;
 }
 .btn.btn-secondary:not(:disabled):not(.disabled).active, .btn.btn-secondary:not(:disabled):not(.disabled):active, .show > .btn.btn-secondary.dropdown-toggle {
     color: #ffffff;
