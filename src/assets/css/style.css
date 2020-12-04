@@ -1188,7 +1188,7 @@ ML Main Banner CSS
     position: relative;
     width: 100%;
     height: 100%;
-    top: 140px;
+    top: 100px;
 }
 
 .ml-banner-image img {
@@ -5121,10 +5121,13 @@ ML Partner CSS
 Page Title CSS
 =================================================*/
 .page-title-area {
-    margin-top:6em;
     position: relative;
+    margin-top:2em;
     z-index: 1;
-    background-image: url(../../assets/img/aboutus.jpg);
+    background: url(../../assets/img/aboutus3.jpg);    
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
     padding-top: 190px;
     padding-bottom: 100px;
     text-align: left;
@@ -5137,22 +5140,6 @@ Page Title CSS
     margin: 0;
 }
 
-.page-title-area2 {
-    margin-top:6em;
-    position: relative;
-    z-index: 1;
-    background-image: url(../../assets/img/banner-bg.jpg);
-    padding-top: 190px;
-    padding-bottom: 100px;
-    text-align: left;
-    border-bottom: 1px dashed #f1f1f1;
-}
-
-.page-title-area2 h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0;
-}
 
 /*================================================
 FAQ CSS

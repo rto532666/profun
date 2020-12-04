@@ -2227,7 +2227,7 @@ ML About CSS
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #ed1c24 ;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -5122,15 +5122,34 @@ Page Title CSS
 =================================================*/
 .page-title-area {
     position: relative;
+    margin-top:1em;
     z-index: 1;
-    background: transparent url(../../assets/img/banner-bg1.jpg) right top no-repeat;
+    background: url(../../assets/img/aboutus3.jpg);
+    width: 100%;
     padding-top: 190px;
     padding-bottom: 100px;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px dashed #f1f1f1;
 }
 
 .page-title-area h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.page-title-area2 {
+    margin-top:6em;
+    position: relative;
+    z-index: 1;
+    background-image: url(../../assets/img/banner-bg.jpg);
+    padding-top: 190px;
+    padding-bottom: 100px;
+    text-align: left;
+    border-bottom: 1px dashed #f1f1f1;
+}
+
+.page-title-area2 h2 {
     font-size: 30px;
     font-weight: 700;
     margin: 0;
