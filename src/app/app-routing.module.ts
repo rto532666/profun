@@ -24,6 +24,12 @@ import { IotComponent } from './iot/iot.component';
 import { MachineLearningComponent } from './machine-learning/machine-learning.component';
 import { MachineLearningHome2Component } from './machine-learning-home2/machine-learning-home2.component';
 import { DigitalAgencyComponent } from './digital-agency/digital-agency.component';
+import { TensorboardComponent } from './tensorboard/tensorboard.component';
+import { TbComponent } from './tb/tb.component';
+import { Tensorboard3Component  } from './tensorboard3/tensorboard3.component';
+
+import {CustomerFeedbackComponent}  from './web-hosting/customer-feedback/customer-feedback.component';
+
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -49,8 +55,13 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'pricing', component: PricingComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'tensorboard', component: TensorboardComponent },
   { path: 'coming-soon', component: ComingSoonComponent },
   { path: '**', component: NotFoundComponent },
+  { path: 'tb', component: TbComponent },
+  { path: 'tensorboard3', component: Tensorboard3Component },
+  { path:'customer', component: CustomerFeedbackComponent }
+  
 ];
 
 @NgModule({

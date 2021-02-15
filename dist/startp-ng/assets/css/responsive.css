@@ -1568,6 +1568,7 @@
     .services-right-image img {
         display: none;
         position: relative;
+        margin-top: 60px;
     }
     .services-right-image img:last-child {
         display: block;

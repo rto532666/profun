@@ -8,6 +8,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { NgwWowModule } from 'ngx-wow';
 
+import {  ReactiveFormsModule,FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -45,6 +47,10 @@ import { MachineLearningHome2Component } from './machine-learning-home2/machine-
 import { DigitalAgencyComponent } from './digital-agency/digital-agency.component';
 import { HeaderStyleTwoComponent } from './header-style-two/header-style-two.component';
 import { HeaderStyleThreeComponent } from './header-style-three/header-style-three.component';
+import { TensorboardComponent } from './tensorboard/tensorboard.component';
+import { TbComponent } from './tb/tb.component';
+import { Tensorboard3Component } from './tensorboard3/tensorboard3.component';
+
 
 @NgModule({
   declarations: [
@@ -83,6 +89,9 @@ import { HeaderStyleThreeComponent } from './header-style-three/header-style-thr
     DigitalAgencyComponent,
     HeaderStyleTwoComponent,
     HeaderStyleThreeComponent,
+    TensorboardComponent,
+    TbComponent,
+    Tensorboard3Component,
   ],
   imports: [
     BrowserModule,
@@ -91,7 +100,9 @@ import { HeaderStyleThreeComponent } from './header-style-three/header-style-thr
     BrowserAnimationsModule,
     CarouselModule,
     Ng2OdometerModule.forRoot(),
-    SlickCarouselModule, NgwWowModule
+    SlickCarouselModule, NgwWowModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [{provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent]

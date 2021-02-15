@@ -328,6 +328,7 @@
     .single-team .team-content {
         padding-left: 20px;
         padding-right: 20px;
+        height: auto;
     }
     .single-team .team-content .team-info {
         margin-right: 10px;
@@ -1568,6 +1569,7 @@
     .services-right-image img {
         display: none;
         position: relative;
+        margin-top: 60px;
     }
     .services-right-image img:last-child {
         display: block;

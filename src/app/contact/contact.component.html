@@ -1,8 +1,8 @@
-<div class="page-title-area" >
+<div class="page-title-area2" >
     <div class="d-table">
         <div class="d-table-cell">
             <div class="container">
-                <h2 style="color:white; padding-bottom: 2em;">Contact Us</h2>
+                <h2 style="color:#ed1c24; padding-bottom: 2.5em; text-align: right;" >Contact Us</h2>
             </div>
         </div>
     </div>
@@ -65,44 +65,52 @@
 
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-lg-6 col-md-12">
-                <img src="assets/img/1.png" alt="image">
+                <img src="../../assets/img/GET IN TOUCH.jpg" alt="image">
             </div>
 
             <div class="col-lg-6 col-md-12">
-                <form id="contactForm">
+                <form id="contactForm" [formGroup]="form" enctype="multipart/form-data" (submit)="sendEmail($event)">
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="form-group">
-                                <input type="text" name="name" id="name" class="form-control" required placeholder="Name">
+                                <input type="text" formControlName="f_name"  name="f_name" id="name" class="form-control" required placeholder="Name" >
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-12">
                             <div class="form-group">
-                                <input type="email" name="email" id="email" class="form-control" required placeholder="Email">
+                                <input type="email" formControlName="email"   name="email" id="email" class="form-control" required placeholder="Email" >
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-6">
                             <div class="form-group">
-                                <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Phone">
+                                <input type="text" formControlName="mob_no"  name="mobno" id="phone_number" required class="form-control" placeholder="Phone" >
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-6">
                             <div class="form-group">
-                                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required placeholder="Subject">
+                                <input type="text" formControlName="subject"   name="subject" id="msg_subject" class="form-control" required placeholder="Subject" >
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-12">
                             <div class="form-group">
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="5" required placeholder="Your Message"></textarea>
+                                <textarea name="message" formControlName="message" class="form-control" id="message" cols="30" rows="5" required placeholder="Your Message" ></textarea>
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-12">
-                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div class="form-group">
+                                <input type="file"
+                                id="file"
+                                (change)="handleFileInput($event.target.files)">
+                            </div>   
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <button [disabled]="disabledSubmitButton"  type="submit" class="btn btn-primary">Send Message</button>
                         </div>
                     </div>
                 </form>

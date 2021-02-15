@@ -72,7 +72,7 @@ a {
     outline: 0 !important;
 }
 a:hover, a:focus {
-    color: #44ce6f;
+    color: #ed1c24;
     text-decoration: none;
 }
 .d-table {
@@ -176,9 +176,9 @@ p:last-child {
 }
 .btn-primary.disabled, .btn-primary:disabled {
     color: #ffffff;
-    background-color: #44ce6f;
-    -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
-    box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
+    background-color: #ed1c24;
+    -webkit-box-shadow: 0 13px 27px 0 #f5686c;
+    box-shadow: 0 13px 27px 0 #f5686c;
     opacity: 1;
 }
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary:disabled:hover, .btn-primary:disabled:focus {
@@ -285,7 +285,7 @@ label {
     background: #ffffff;
     -webkit-box-shadow: unset;
     box-shadow: unset;
-    border-color: #44ce6f;
+    border-color: #ed1c24;
 }
 
 /*Section Title*/
@@ -377,7 +377,7 @@ Preloader CSS
     width: 100%;
     height: 100%;
     z-index: 9999999;
-    background: #44ce6f;
+    background: #ed1c24;
 }
 
 .preloader .spinner {
@@ -1595,7 +1595,7 @@ Services CSS
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    background: linear-gradient(135deg, #ed1c24 0%, #e93339 100%);
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -1615,7 +1615,7 @@ Services CSS
   position: absolute;
   left: 15px;
   top: 15px;
-  color: #44ce6f;
+  color: #ed1c24;;
   transition: 0.5s;
   width: 18px;
 }
@@ -1644,7 +1644,7 @@ Services CSS
 }
 
 .services-right-image img:nth-child(1) {
-    left: 22%;
+    left: 10%;
     top: -85px;
     z-index: 1;
 }
@@ -2040,7 +2040,7 @@ Features CSS
 .single-features .icon {
     position: absolute;
     text-align: center;
-    width: 55px;
+    width: 55px; 
     height: 55px;
     line-height: 55px;
     background: #cdf1d8;
@@ -2070,7 +2070,7 @@ Features CSS
 }
 
 .single-features:hover .icon {
-    background: #44ce6f;
+    background: #cdf1d8;
     color: #ffffff;
 }
 
@@ -2407,7 +2407,7 @@ ML Services CSS
     transition: 0.5s;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background: #44ce6f;
+    background: #ed1c24;
     visibility: hidden;
     opacity: 0;
 }
@@ -2468,6 +2468,7 @@ Team CSS
 .single-team .team-content {
     padding-left: 35px;
     padding-right: 35px;
+    height:300px;
 }
 
 .single-team .team-content ul {
@@ -2533,7 +2534,7 @@ Team CSS
 }
 
 .single-team:hover .team-image img {
-    border-color: #ed1c24;
+    border-color: C;
 }
 
 .single-team:hover .team-info {
@@ -5121,10 +5122,10 @@ ML Partner CSS
 Page Title CSS
 =================================================*/
 .page-title-area {
-    position: relative;
-    margin-top:2em;
+    position: relative; 
+    margin-top:4em;
     z-index: 1;
-    background: url(../../assets/img/aboutus3.jpg);    
+    background: url(../../assets/img/aboutus3.jpg);     
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -5139,6 +5140,49 @@ Page Title CSS
     font-weight: 700;
     margin: 0;
 }
+.page-title-area2 {
+    position: relative;
+    margin-top:4em;
+    z-index: 1;
+    background: url(../../assets/img/CONTACTUS.jpg);    
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    padding-bottom: 100px;
+    text-align: left;
+    border-bottom: 1px dashed #f1f1f1;
+}
+
+.page-title-area-service{
+
+    position: relative;
+    margin-top:4em;
+    z-index: 1;
+    background: url(../../assets/img/SERVICES.jpg);    
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    padding-bottom: 100px;
+    text-align: left;
+    border-bottom: 1px dashed #f1f1f1;
+}
+.page-title-area-about{
+
+    position: relative;
+    margin-top:4em;
+    z-index: 1;
+    background: url(../../assets/img/aboutus.jpg);   
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    padding-bottom: 100px;
+    text-align: left;
+    border-bottom: 1px dashed #f1f1f1;
+}
+
 
 
 /*================================================
@@ -5247,7 +5291,7 @@ Our Solutions CSS
 }
   
 .single-solutions-box {
-    height: 410px;
+    height: 400px;
     padding: 20px 15px;
     text-align: center;
     -webkit-transition: 0.5s;
@@ -5319,7 +5363,7 @@ Our Solutions CSS
 }
 
 .single-solutions-box .learn-more-btn:hover {
-    color: #44ce6f;
+    color: #ed1c24;
 }
 
 .single-solutions-box:hover {
@@ -8023,7 +8067,7 @@ Footer CSS
 }
 
 .single-footer-widget ul.list li a:hover {
-    color: #44ce6f;
+    color: #ed1c24;
     padding-left: 7px;
 }
 
@@ -8065,7 +8109,7 @@ Footer CSS
 }
 
 .single-footer-widget ul.footer-contact-info li a:hover {
-    color: #44ce6f;
+    color: #ed1c24;
 }
 
 .single-footer-widget ul.social-links li {
@@ -8122,7 +8166,7 @@ Footer CSS
 
 .single-footer-widget ul.social-links li a.instagram {
     border-color: #231F20;
-    color: #231F20;
+    color: #ed1c24;
 }
 
 .single-footer-widget ul.social-links li a.instagram:hover {
@@ -8152,7 +8196,7 @@ Go Top CSS
     bottom: 30px;
     right: 0;
     color: #ffffff;
-    background-color: #c679e3;
+    background-color: #ed1c24;
     z-index: 1;
     display: none;
     width: 45px;

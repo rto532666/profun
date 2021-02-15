@@ -21,6 +21,8 @@
     "@angular/router": "~8.2.9",
     "angular-feather": "^6.0.2",
     "bootstrap": "^4.3.1",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
     "jquery": "^3.4.1",
     "magnific-popup": "^1.1.0",
     "ng2-odometer": "^1.1.3",

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-developers',
   templateUrl: './developers.component.html',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DevelopersComponent implements OnInit {
 
-  constructor() { }
+  constructor() { }    
 
   ngOnInit() {
   }

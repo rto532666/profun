@@ -1,41 +1,12 @@
-<div class="hosting-main-banner">
+<div class="page-title-area" >
     <div class="d-table">
         <div class="d-table-cell">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="hosting-banner-content">
-                            <h1>The Best Web Hosting</h1>
-                            <ul>
-                                <li>FREE Domain Name for 2st Year</li>
-                                <li>FREE SSL Certificate Included</li>
-                                <li>1-Click Wordpress Install</li>
-                                <li>24/7 Support</li>
-                            </ul>
-                            <p>Starting at <span>$8.99</span> $3.95/month</p>
-                            <a href="#"  class="btn btn-primary">Get Started</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="hosting-banner-image">
-                            <img src="assets/img/hosting-banner-image/1.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/2.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/3.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/4.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/5.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/6.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/7.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/8.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/9.png" class="wow fadeInDown" data-wow-delay="0.7s" alt="image">
-                            <img src="assets/img/hosting-banner-image/static-main.png" class="wow fadeInUp" alt="image">
-                        </div>
-                    </div>
-                </div>
+                <h2 style="color:white; padding-bottom: 2em;">Tensorflow / Tensorboard</h2>
             </div>
         </div>
     </div>
-
+    
     <div class="shape1"><img src="assets/img/shape1.png" alt="shape"></div>
     <div class="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
     <div class="shape3"><img src="assets/img/shape3.svg" alt="shape"></div>
@@ -46,433 +17,67 @@
     <div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
 </div>
 
-<section class="boxes-area hosting-boxes-area">
+<section class="about-area ptb-80">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-box">
-                    <div class="icon">
-                        <i class="flaticon-money"></i>
-                    </div>
-                    <h3>Money-back Guarantee</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
+        <h2 >Visualizing face detection model using TensorBoard</h2><br><br><br>
+        
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-box bg-f78acb">
-                    <div class="icon">
-                        <i class="flaticon-data-1"></i>
-                    </div>
-                    <h3>Big Data Transfer</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
+        <h3>Why TensorBoard?</h3>
+        <p style="font-size:16px;">This is a visualization tool that is available with tensorflow. But the reason this is useful is that, it has special features such as viewing your machine learning model as a conceptual graphical representation (computational graph) of nodes and edges connecting those nodes(data flows). Further it also provides us the ability to evaluate the performance of our models in relation to desired metrics. 
+        </p>
+        <br><br>
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-box bg-c679e3">
-                    <div class="icon">
-                        <i class="flaticon-dashboard"></i>
-                    </div>
-                    <h3>99.9% Server Uptime</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-box bg-eb6b3d">
-                    <div class="icon">
-                        <i class="flaticon-support"></i>
-                    </div>
-                    <h3>Live 24/7 Support</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-            </div>
-        </div>
+        <h3>Accuracy</h3>
+        <p style="font-size:16px;">As a rule of thumb, when you notice the accuracy stops increasing, that is the ideal number of epochs you should have usually between 1 and 10. 100 seems too much already. In every epochs steps accuracy increase.
+            <br><br>
+            <img src="assets/img/tensorboard.png" alt="shape"> 
+        </p>
+
+
+        <br><br><br>
+        <h3>Losses</h3>
+        <p style="font-size:16px;">A scalar value that we attempt to minimize during our training of the model. The lower the loss, the closer our predictions are to the true labels. A model should be generic and must make accurate predictions on unseen data as well. For this, we monitor the losses and other metrics on validation (or dev) data and ensure that the losses don’t differ much. This can be done in a more insightful manner by visualizing these metrics over the training time.
+
+        </p>
+        <p style="font-size:16px;">In this image you can show every epochs steps losses go down.</p>
+            <br><br>
+            <img src="assets/img/tensorboard-1.png" alt="shape">
+
+
+       <br><br><br><br><br>  
+        <h3>Model Images</h3>
+        <p style="font-size:16px;">In this model we are use face images for detection. here is some exaple of train images.
+            <br><br>
+            <img src="assets/img/tensorboard-3.PNG" alt="shape">
+        </p>
+
+        <br><br><br><br><br>
+        <h3>Graphs</h3>
+        <p style="font-size:16px;">Here’s an example of a more complex version of a model graph being visualized by TensorFlow. TensorBoard allows us to zoom, pan, and expand elements to see more details. We can easily view a conceptual graph of our model’s structure and ensure it matches our intended design using the Graphs dashboard. This also is quite an insight into how TensorFlow construes the model.
+            <br><br>
+            <img src="assets/img/tensorboard-4.PNG" alt="shape">
+        </p>
+
+        <br><br><br><br><br>
+        <h3>Histogram</h3>
+        <p style="font-size:16px;">The Histograms and Distributions dashboards allow us to visualize the distribution of a tensor over time. Using these, we can monitor the weights, biases, activations, and more. </p>
+        <p style="font-size:16px;">histogram_freq tells tensorflow to compute the distributions after every epoch. If it is set to 0, then it won’t plot any distributions.</p>
+
+        <br><br>
+            <img src="assets/img/tensorboard-5.png" alt="shape">
+            <br><br><br>
+            <img src="assets/img/tensorboard-6.png" alt="shape">
+        
+        <br><br><br><br>
+        <h3>Conclusion</h3>
+        <p style="font-size:18px;">We saw what TensorBoard is and explored some basic stuff in it. However, in this article we have covered like accuracy, losses, graphs, distributions, and model images.</p>
     </div>
 </section>
 
-<section class="domain-search-area ptb-80">
-    <div class="container">
-        <div class="domain-search-content">
-            <h2>Find Your Best Domain Name</h2>
-            <form>
-                <input type="text" class="form-control" name="domain-search" id="domain-search" placeholder="Search domain name here">
 
-                <div class="domain-select">
-                    <select class="form-control">
-                        <option>.com</option>
-                        <option>.net</option>
-                        <option>.xyz</option>
-                        <option>.tech</option>
-                        <option>.club</option>
-                        <option>.space</option>
-                        <option>.global</option>
-                        <option>.edu</option>
-                    </select>
-                </div>
+<div class="container" style="margin-bottom: 10%;">
 
-                <button type="submit">Search</button>
-            </form>
+</div>
 
-            <ul class="domain-price">
-                <li>.com<br>$ 9.88</li>
-                <li>.net<br>$ 7.88</li>
-                <li>.xyz<br>$ 3.88</li>
-                <li>.tech<br>$ 5.28</li>
-                <li>.club<br>$ 2.38</li>
-                <li>.space<br>$ 4.98</li>
-                <li>.global<br>$ 8.99</li>
-                <li>.edu<br>$ 6.88</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section class="why-choose-us ptb-80">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-12">
-                <div class="section-title">
-                    <h2>Why Choose Us</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-
-                <div class="why-choose-us-image">
-                    <img src="assets/img/why-choose-us-image/man-stand.png" class="wow fadeInLeft" alt="image">
-                    <img src="assets/img/why-choose-us-image/database.png" class="wow fadeInRight" alt="image">
-                    <img src="assets/img/services-left-image/cercle-shape.png" class="rotateme" alt="image">
-                    <img src="assets/img/why-choose-us-image/main-static.png" class="main-pic wow fadeInUp" alt="image">
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-why-choose-us">
-                            <div class="icon">
-                                <i class="flaticon-team"></i>
-                            </div>
-                            <h3>Proficient & Friendly</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-why-choose-us">
-                            <div class="icon">
-                                <i class="flaticon-rocket"></i>
-                            </div>
-                            <h3>Extremely Fast</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-why-choose-us">
-                            <div class="icon">
-                                <i class="flaticon-shield"></i>
-                            </div>
-                            <h3>100% Safe & Security</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-why-choose-us">
-                            <div class="icon">
-                                <i class="flaticon-diamond"></i>
-                            </div>
-                            <h3>Top-Rated</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="pricing-area ptb-80 bg-f7fafd">
-    <div class="container">
-        <div class="section-title">
-            <h2>Pricing Plans</h2>
-            <div class="bar"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-pricing-table">
-                    <div class="pricing-header">
-                        <i class="flaticon-data"></i>
-                        <h3>Web Hosting</h3>
-                    </div>
-
-                    <div class="price">
-                        <span><sup>$</sup>10.99<span>/m</span></span>
-                    </div>
-
-                    <div class="pricing-features">
-                        <ul>
-                            <li><i-feather name="check"></i-feather> 99.9% Uptime Guarantee</li>
-                            <li><i-feather name="check"></i-feather> Reliable & Secure</li>
-                            <li><i-feather name="check"></i-feather> Powered by cPanel / Plesk</li>
-                            <li> Web Asset Delivery</li>
-                            <li> 24/7 Dedicated Support</li>
-                        </ul>
-                    </div>
-
-                    <div class="pricing-footer">
-                        <a href="#" class="btn btn-primary">Select Plan</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-pricing-table active-plan">
-                    <div class="pricing-header">
-                        <i class="flaticon-cloud"></i>
-                        <h3>Cloud Hosting</h3>
-                    </div>
-
-                    <div class="price">
-                        <span><sup>$</sup>13.99<span>/m</span></span>
-                    </div>
-
-                    <div class="pricing-features">
-                        <ul>
-                            <li><i-feather name="check"></i-feather> 99.9% Uptime Guarantee</li>
-                            <li><i-feather name="check"></i-feather> Reliable & Secure</li>
-                            <li><i-feather name="check"></i-feather> Powered by cPanel / Plesk</li>
-                            <li><i-feather name="check"></i-feather> Web Asset Delivery</li>
-                            <li>24/7 Dedicated Support</li>
-                        </ul>
-                    </div>
-
-                    <div class="pricing-footer">
-                        <a href="#" class="btn btn-primary">Select Plan</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-                <div class="single-pricing-table">
-                    <div class="pricing-header">
-                        <i class="flaticon-vps"></i>
-                        <h3>Vps Hosting</h3>
-                    </div>
-
-                    <div class="price">
-                        <span><sup>$</sup>15.99<span>/m</span></span>
-                    </div>
-
-                    <div class="pricing-features">
-                        <ul>
-                            <li><i-feather name="check"></i-feather> 99.9% Uptime Guarantee</li>
-                            <li><i-feather name="check"></i-feather> Reliable & Secure</li>
-                            <li><i-feather name="check"></i-feather> Powered by cPanel / Plesk</li>
-                            <li><i-feather name="check"></i-feather> Web Asset Delivery</li>
-                            <li><i-feather name="check"></i-feather> 24/7 Dedicated Support</li>
-                        </ul>
-                    </div>
-
-                    <div class="pricing-footer">
-                        <a href="#" class="btn btn-primary">Select Plan</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
-    <div class="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape"></div>
-    <div class="shape7"><img src="assets/img/shape4.svg" alt="shape"></div>
-    <div class="shape4"><img src="assets/img/shape4.svg" alt="shape"></div>
-</section>
-
-<app-customer-feedback></app-customer-feedback>
-
-<section class="hosting-features-area ptb-80 bg-f9f6f6">
-    <div class="container">
-        <div class="section-title">
-            <h2>Our Features</h2>
-            <div class="bar"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-hosting-features">
-                    <div class="icon">
-                        <i-feather name="settings"></i-feather>
-                    </div>
-
-                    <h3>Incredible Infrastructure</h3>
-                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-hosting-features">
-                    <div class="icon bg-c679e3">
-                        <i-feather name="info"></i-feather>
-                    </div>
-
-                    <h3>Information Retrieval</h3>
-                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-hosting-features">
-                    <div class="icon">
-                        <i-feather name="bell"></i-feather>
-                    </div>
-
-                    <h3>Best Analytics Audits</h3>
-                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-hosting-features">
-                    <div class="icon bg-c679e3">
-                        <i-feather name="grid"></i-feather>
-                    </div>
-
-                    <h3>Simple Dashboard</h3>
-                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-hosting-features">
-                    <div class="icon">
-                        <i-feather name="mail"></i-feather>
-                    </div>
-
-                    <h3>Email Notifications</h3>
-                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-hosting-features">
-                    <div class="icon bg-c679e3">
-                        <i-feather name="hard-drive"></i-feather>
-                    </div>
-
-                    <h3>Deep Technical SEO</h3>
-                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<app-partner></app-partner>
-
-<section class="blog-area ptb-80">
-    <div class="container">
-        <div class="section-title">
-            <h2>The News from Our Blog</h2>
-            <div class="bar"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="#">
-                            <img src="assets/img/blog-image/1.jpg" alt="image">
-                        </a>
-
-                        <div class="date">
-                            <i-feather name="calendar"></i-feather> March 15, 2019
-                        </div>
-                    </div>
-
-                    <div class="blog-post-content">
-                        <h3><a href="#">The security risks of changing package owners</a></h3>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-
-                        <a href="#" class="read-more-btn">Read More <i-feather name="arrow-right"></i-feather> </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="#">
-                            <img src="assets/img/blog-image/2.jpg" alt="image">
-                        </a>
-
-                        <div class="date">
-                            <i-feather name="calendar"></i-feather> March 17, 2019
-                        </div>
-                    </div>
-
-                    <div class="blog-post-content">
-                        <h3><a href="#">Tips to Protecting Your Business and Family</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <a href="#" class="read-more-btn">Read More <i-feather name="arrow-right"></i-feather> </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="#">
-                            <img src="assets/img/blog-image/3.jpg" alt="image">
-                        </a>
-
-                        <div class="date">
-                            <i-feather name="calendar"></i-feather> March 19, 2019
-                        </div>
-                    </div>
-
-                    <div class="blog-post-content">
-                        <h3><a href="#">Protect Your Workplace from Cyber Attacks</a></h3>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-
-                        <a href="#" class="read-more-btn">
-                            Read More <i-feather name="arrow-right"></i-feather>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="cta-area ptb-80">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-7 col-md-6">
-                <div class="cta-content">
-                    <h3>Sign up for web hosting today!</h3>
-                </div>
-            </div>
-
-            <div class="col-lg-5 col-md-6">
-                <div class="cta-right-content">
-                    <div class="hosting-price">
-                        <span>Starting at only</span>
-                        <h4>$4.75/mo*</h4>
-                    </div>
-
-                    <div class="buy-btn">
-                        <a href="#" class="btn btn-primary">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- <app-funfact></app-funfact> -->
